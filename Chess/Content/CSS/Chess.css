@@ -1,0 +1,313 @@
+﻿@import "Public.css";
+body {
+	margin:0;
+}
+.connect-conver
+{
+	font-family:微软雅黑;
+	text-align:center;
+	color:white;
+}
+.connect-window
+{
+	width:100%;
+	height:100%;
+	background-color:black;
+	opacity:0.7;
+}
+.connect-word
+{
+	position:absolute;
+	width:200px;
+	height:200px;
+	left:50%;
+	top:50%;
+	margin-top:-30px;
+	margin-left:-100px;
+}
+/*****************gamepanel*****************/
+.chess
+{
+	width:590px;
+	height:440px;
+	background-image:url("../../Content/Images/chess_background.jpg");
+}
+.gamepanel
+{
+	position:absolute;
+	width:400px;
+	height:400px;
+	background-image:url("../../Content/Images/chess_board.png");
+	left:20px;
+	top:20px;
+}
+/*****************gameConfig*****************/
+.gameConfig
+{
+	position:absolute;
+	width:150px;
+	right:10px;
+	top:50px;
+	font-family:微软雅黑;
+}
+.config_button .btn
+{
+	border-color: #fe4d3d;
+    color: #fff;
+    background: #f28585;
+    background-size: 100%;
+    width:70px;
+	height:30px;
+}
+.config_radio
+{
+	margin-top:10px;
+}
+/*****************piece*****************/
+.piece
+{
+	position:absolute;
+	width:100px;
+	height:100px;
+	border-radius:50px;
+}
+.piece0
+{
+	left:0px;
+	top:0px;
+}
+.piece1
+{
+	left:100px;
+	top:0px;
+}
+.piece2
+{
+	left:200px;
+	top:0px;
+}
+.piece3
+{
+	left:300px;
+	top:0px;
+}
+.piece4
+{
+	left:0px;
+	top:100px;
+}
+.piece5
+{
+	top:100px;
+	left:100px;
+}
+.piece6
+{
+	top:100px;
+	left:200px;
+}
+.piece7
+{
+	top:100px;
+	left:300px;
+}
+.piece8
+{
+	left:0px;
+	top:200px;
+}
+.piece9
+{
+	top:200px;
+	left:100px;
+}
+.piece10
+{
+	top:200px;
+	left:200px;
+}
+.piece11
+{
+	top:200px;
+	left:300px;
+}
+.piece12
+{
+	left:0px;
+	top:300px;
+}
+.piece13
+{
+	top:300px;
+	left:100px;
+}
+.piece14
+{
+	top:300px;
+	left:200px;
+}
+.piece15
+{
+	top:300px;
+	left:300px;
+}
+/*游戏胜利界面*/
+.victory-covery
+{
+	font-family:微软雅黑;
+}
+.victory-window
+{
+	position:absolute;
+	width:400px;
+	height:150px;
+	left:50%;
+	top:50%;
+	margin-top:-75px;
+	margin-left:-200px;
+	background-color:#f2d5d5;
+	border: #35a5e5 1px solid;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+.victory-word
+{
+	text-align:center;
+	font-size:50px;
+	margin-top:20px;
+}
+.victory-btnArea
+{
+	position:absolute;
+	text-align:center;
+	width:100%;
+	bottom:15px;
+}
+.victory-btnArea .btn
+{
+	border-color: #fe4d3d;
+    color: #fff;
+    background: #f28585;
+    background-size: 100%;
+    width:400px;
+	height:30px;
+}
+/*查看规则界面*/
+.rule-covery
+{
+	font-family:微软雅黑;
+}
+.rule-window
+{
+	position:absolute;
+	width:250px;
+	height:350px;
+	left:50%;
+	top:50%;
+	margin-top:-175px;
+	margin-left:-120px;
+	background-color:#f2d5d5;
+	border: #35a5e5 1px solid;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+.rule-word
+{
+	text-align:justify;
+	margin-top:20px;
+	margin-left:10px;
+	margin-right:10px;
+}
+.rule-word-detail
+{
+	margin-top:10px;
+	color:red;
+}
+.rule-btnArea
+{
+	position:absolute;
+	text-align:center;
+	width:100%;
+	bottom:15px;
+}
+.rule-btnArea .btn
+{
+	border-color: #fe4d3d;
+    color: #fff;
+    background: #f28585;
+    background-size: 100%;
+    width:250px;
+	height:30px;
+}
+/*选择房间界面*/
+.room-window
+{
+	position:absolute;
+	width:260px;
+	height:100px;
+	left:50%;
+	top:50%;
+	margin-top:-50px;
+	margin-left:-130px;
+	background-color:#f2d5d5;
+	border: #35a5e5 1px solid;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	font-family:微软雅黑;
+	color:black;
+	display:none;
+}
+.room-textArea
+{
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+}
+.room-errorWord
+{
+	color:red;
+	margin-left:10px;
+	margin-right:10px;
+	display:none;
+}
+.room-btnArea
+{
+	position:absolute;
+	text-align:center;
+	width:100%;
+	bottom:10px;
+}
+.room-btnArea .btn
+{
+	border-color: #fe4d3d;
+    color: #fff;
+    background: #f28585;
+    background-size: 100%;
+    width:260px;
+	height:30px;
+}
+/*按钮通用样式*/
+.btn
+{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 7px 20px 6px;
+    font-size: 14px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    letter-spacing: .1em;
+    text-align: center;
+    text-decoration: none;
+    border-width: 0 0 1px;
+    border-style: solid;
+    background-repeat: repeat-x;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    cursor: pointer;
+}
+.cover
+{
+	position:absolute;
+	z-index:100;
+	width:100%;
+	height:100%;
+}
